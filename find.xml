@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\img\header_icon.png'" />
-    <option name="defaultScopeName" value="File '...\img\header_icon.png'" />
-    <option name="SEARCH_SCOPE" value="File '...\img\header_icon.png'" />
+    <option name="customScope" value="File 'C:\Users\Home\Desktop\проект\css\stylelist.css'" />
+    <option name="defaultScopeName" value="File 'C:\Users\Home\Desktop\проект\css\stylelist.css'" />
+    <option name="SEARCH_SCOPE" value="File 'C:\Users\Home\Desktop\проект\css\stylelist.css'" />
   </component>
 </application>
