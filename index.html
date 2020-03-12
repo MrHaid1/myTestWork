@@ -1,0 +1,170 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>POLISCAN</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Place favicon.ico in the root directory -->
+
+
+  <link rel="stylesheet" href="css/stylelist.css">
+  <link href='fnt\18893.ttf' rel='stylesheet' type='text/css'>
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+<script type="text/javascript">
+  function clock() {
+    var d = new Date();
+    var day = d.getDate();
+    var hours = d.getHours();
+    var minutes = d.getMinutes();
+
+
+    month=["января", "февраля", "марта", "апреля", "мая", "июня",
+      "июля", "августа", "сентября", "октября", "ноября", "декабря"];
+    days=["воскресенье", "понедельник", "вторник", "среда",
+      "четверг", "пятница", "суббота"];
+
+    if (day <= 9) day = "0" + day;
+    if (hours <= 9) hours = "0" + hours;
+    if (minutes <= 9) minutes = "0" + minutes;
+
+
+    date_date = day + " " + month[d.getMonth()] + " "  + ", " +
+            days[d.getDay()] ;
+    date_time = hours + ":" + minutes;
+
+    if (document.layers) {
+      document.layers.date.document.write(date_time);
+      document.layers.date.document.close();
+      document.layers.time.document.write(date_time);
+      document.layers.time.document.close();
+    }
+    else {
+      document.getElementById("date").innerHTML = date_date;
+      document.getElementById("time").innerHTML = date_time;
+    }
+    setTimeout("clock()", 1000);
+  }
+  clock();
+</script>
+<header>
+  <div class="header_block1">
+    <span id="date" class="date">Дата</span>
+    <span id="time" class="time">Время</span>
+    <div type="header_glob_find">
+      <form>
+        <label for id="search">
+          <!--suppress XmlDuplicatedId -->
+          <input type="text" name="searchf" placeholder="Глобальный поиск" class="header_glob" >
+        </label>
+      </form>
+    </div>
+  </div>
+  <script type="text/javascript">
+    clock();
+  </script>
+  <div class="header">
+    <div>
+      <img src="img\header_icon.png" alt="" class="header_icon">
+    </div>
+    <div class="header_startpage header_a">
+      <a href="index.html" alt="POLISCAN">POLISCAN</a>
+    </div>
+
+    <div class="header_list ">
+      <div class="header_a">
+        <a href="404.html" alt="Главная">ГЛАВНАЯ</a>
+      </div>
+      <div class="header_a">
+        <a href="404.html" alt="Телевидение">ТЕЛЕВИДЕНИЕ</a>
+      </div>
+      <div class="header_a">
+        <a href="404.html" alt="СОЦИАЛЬНЫЕ СЕТИ">СОЦИАЛЬНЫЕ СЕТИ</a>
+      </div>
+      <div class="header_a">
+        <a href="404.html" alt="ИНТЕРНЕТ">ИНТЕРНЕТ</a>
+      </div>
+      <div class="header_a">
+        <a href="404.html" alt="ПРЕССА">ПРЕССА</a>
+      </div>
+      <div class="header_a">
+        <a href="404.html" alt="РАДИО">РАДИО</a>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+
+  <div class = "main_column_left">
+    <div class="column_left_block1">
+      <div class="column_left_tele column_h">
+        Телеканалы
+      </div>
+      <ul>
+        <li> <a href="404.html"  alt="Национальные">Национальные</a></li>
+        <li> <a href="404.html" alt="Областные">Областные</a></li>
+        <li> <a href="404.html" alt="Городские">Городские</a></li>
+      </ul>
+    </div>
+    <div class="column_left_block2">
+      <div class="column_left_social column_h">
+        Соцсети
+      </div>
+      <ul>
+        <li><a href="404.html" alt="Facebook">Facebook</a></li>
+        <li><a href="404.html" alt="Telegram">Telegram</a></li>
+        <li><a href="404.html" alt="YouTube">YouTube</a></li>
+        <li><a href="404.html" alt="Twitter">Twitter</a></li>
+      </ul>
+    </div>
+    <div class="column_left_block3">
+      <div class="column_left_inet column_h">
+        Интернет
+      </div>
+      <ul>
+        <li><a href="404.html" alt="Национальные">Национальные</a></li>
+        <li><a href="404.html" alt="Областные">Областные</a></li>
+        <li><a href="404.html" alt="Городские">Городские</a></li>
+      </ul>
+    </div>
+    <div class="column_left_block4">
+      <div class="column_left_smi column_h">
+        Печатные СМИ
+      </div>
+      <ul>
+        <li><a href="404.html" alt="Национальные">Национальные</a></li>
+        <li><a href="404.html" alt="Областные">Областные</a></li>
+        <li><a href="404.html" alt="Городские">Городские</a></li>
+      </ul>
+    </div>
+    <div class="column_left_block5">
+      <div class="column_left_radio column_h">
+        Радио
+      </div>
+      <ul>
+        <label for id="li1">
+        <li><a href="404.html" alt="Национальные">Национальные</a></li></label>
+        <li><a href="404.html" alt="Областные">Областные</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="main_center_newslist">
+    adasdasdsa
+    <div class="logo">
+      asdasdasd
+    </div>
+    <div>
+      sdcscsdsdvdsvwdvwqefeqfefjhjj
+    </div>
+  </div>
+</main>
+
+</body>
+
+</html>
