@@ -53,6 +53,7 @@
   }
   clock();
 </script>
+
 <header>
   <div class="header_block1">
     <div id="date-block">
@@ -103,6 +104,14 @@
 </header>
 <main>
   <div class="main_column_left">
+      <script type="text/javascript">
+          let hid = document.querySelector('.main_column_left');
+          let btnHidden = document.querySelector('.hidden_button');
+          btnHidden.onclick = function () {
+              hid.document.classList.toggle('hidden');
+
+          };
+      </script>
     <div class="column_left_block1">
       <div class="column_left_tele column_h">
         Телеканалы
@@ -149,10 +158,10 @@
         Радио
       </div>
       <ul>
-        <label for id="li1">
-        <li><a href="404.html" alt="Национальные">Национальные</a></li></label>
+        <li><a href="404.html" alt="Национальные">Национальные</a></li>
         <li><a href="404.html" alt="Областные">Областные</a></li>
       </ul>
+      <button class="hidden_button" type="button">тест</button>
     </div>
   </div>
   <div class="main_center_newslist">
@@ -173,5 +182,5 @@
 </footer>
 
 </body>
-
+<!--<script src="script.js"></script> --!>
 </html>
