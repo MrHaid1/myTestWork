@@ -207,7 +207,9 @@ main {
 }
 .main_back{
     display:flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 350px;
+
 }
 .main_back a{
     font-family: "JetBrains Mono", serif;
@@ -246,9 +248,13 @@ main {
     font-family: "JetBrains Mono", serif;
     font-size: 10px;
     white-space: nowrap;
+    text-align: left;
+    vertical-align: center;
 }
 .main_channel_info {
-
+display:grid;
+grid-template-columns:830px 890px 460px;
+grid-template-rows: 540px;
 }
 /*CSS right column*/
 .main_column_right {
