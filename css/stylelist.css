@@ -110,6 +110,8 @@ main {
     min-height: calc( 100% - 148px);
 }
 
+/*CSS left column*/
+
 .main_column_left {
     display:flex;
     flex-direction: column;
@@ -125,24 +127,6 @@ main {
 .hidden {
     display:none;
 }
-.main_center_newslist {
-    display:flex;
-    width: 80%;
-}
-
-.main_column_right {
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height:auto;
-    min-width: 180px;
-    width: 10%;
-    font-family: "JetBrains Mono", serif;
-    text-align: left;
-    font-size:10px;
-    background-color: rgb(245,245,247);
-}
-
 .column_h {
     margin-top:20px;
     font-size: 15px;
@@ -206,16 +190,81 @@ main {
     background-color:#ab47bc;
     color:white;
 }
-
 .column_left_block5 a{
     padding: 10px 40px;
     display:block;
 }
-
 .column_left_block5 a:hover {
     background-color:#ab47bc;
     color:white;
 }
+
+/*CSS main newslist*/
+
+.main_center_newslist {
+    display:flex;
+    width: 80%;
+}
+.main_back{
+    display:flex;
+    justify-content: flex-start;
+}
+.main_back a{
+    font-family: "JetBrains Mono", serif;
+    font-size: 20px;
+    color:rgb(116, 126, 143);
+    margin-top:10%;
+    }
+.main_back img {
+    width: 25px;
+    margin-right: 10px;
+}
+.main_channel_info_text {
+    display:table;
+    font-family: "JetBrains Mono", serif ;
+    font-size: 20px;
+}
+.row {
+    display: table-row;
+}
+.c1 {
+    display: table-cell;
+    font-weight: bold;
+}
+.c2 {
+    display: table-cell;
+}
+.text {
+    margin-top: 15px;
+}
+.main_channel_info_text_color {
+    background-color: rgb(244,245,247);
+    padding:20px;
+}
+.main_block_stat {
+    background-color: rgb(171,71,178);
+    font-family: "JetBrains Mono", serif;
+    font-size: 10px;
+    white-space: nowrap;
+}
+.main_channel_info {
+
+}
+/*CSS right column*/
+.main_column_right {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:auto;
+    min-width: 180px;
+    width: 10%;
+    font-family: "JetBrains Mono", serif;
+    text-align: left;
+    font-size:10px;
+    background-color: rgb(245,245,247);
+}
+
+/*CSS footer*/
 
 footer {
     width: 100%;
