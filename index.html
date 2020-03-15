@@ -53,6 +53,7 @@
   }
   clock();
 </script>
+
 <header>
   <div class="header_block1">
     <div id="date-block">
@@ -103,6 +104,14 @@
 </header>
 <main>
   <div class="main_column_left">
+      <script type="text/javascript">
+          let hid = document.querySelector('.main_column_left');
+          let btnHidden = document.querySelector('.hidden_button');
+          btnHidden.onclick = function () {
+              hid.document.classList.toggle('hidden');
+
+          };
+      </script>
     <div class="column_left_block1">
       <div class="column_left_tele column_h">
         Телеканалы
@@ -149,22 +158,69 @@
         Радио
       </div>
       <ul>
-        <label for id="li1">
-        <li><a href="404.html" alt="Национальные">Национальные</a></li></label>
+        <li><a href="404.html" alt="Национальные">Национальные</a></li>
         <li><a href="404.html" alt="Областные">Областные</a></li>
       </ul>
+      <button class="hidden_button" type="button">тест</button>
     </div>
   </div>
-  <div class="main_center_newslist">
-    adasdasdsa
+  <div class="main_head_channel">
+    <div class="main_back">
+      <a href="index.html" alt="Вернуться назад"><img src="css\img\arrow_ico.png">Вернуться назад</a>
+    </div>
+  <div class="main_channel_info">
     <div class="logo">
-      asdasdasd
+      <img src="img/logo_ua.png" class="channel_log">
     </div>
-    <div>
-      sdcscsdsdvdsvwdvwqefeqfefjhjj
+    <div class="main_channel_info_text_color">
+    <div class="main_channel_info_text">
+      <div class="row">
+      <div class="c1">Владелец:</div>
+      <div class="c2">Систем Кэпитал Менеджмент</div>
+      </div>
+      <div class="row">
+        <div class="c1">Дата начала вещания:</div>
+        <div class="c2">13 марта 1993 года</div>
+      </div>
+      <div class="row">
+        <div class="c1">Язык вещания:</div>
+        <div class="c2">Украинский, русский</div>
+      </div>
+      <div class="row">
+        <div class="c1">Время вещания:</div>
+        <div class="c2">круглосуточно</div>
+      </div>
+      <div class="row">
+        <div class="c1">Основатель:</div>
+        <div class="c2">ТРК "Украина"</div>
+      </div>
+      <div class="row">
+        <div class="c1">Аудитория:</div>
+        <div class="c2">все категории населения</div>
+      </div>
+      <div class="row">
+        <div class="c1">Формат изображения:</div>
+        <div class="c2">16:9 (SDTV); 1080i (HDTV)</div>
+      </div>
+    </div>
+      <div class="text">
+        <p>"Украина" - украинский общенациональный телеканал, входит в<br> медиахолдинг
+        "Медиа Группа Украина" олигарха Рината Ахметова.<br>
+        Основная сетка канала состоит из русскоязычных шоу, фильмов<br> и сериалов,
+        собственного и российского производства.</p>
+      </div>
+
+  </div>
+    <div class="main_block_stat">
+      <span style="color:white"><span style="font-weight: bold; font-size: 20px">48</span>  сюжетов за сегодня </span><br>
+      <span style="color:white"><span style="font-weight: bold; font-size: 20px">937</span>  сюжетов за неделю </span><br>
+      <span style="color:white"><span style="font-weight: bold; font-size: 20px">26 145</span>  сюжетов всего </span><br>
+      <span style="color:white"><span style="font-weight: bold; font-size: 20px">897</span>  часов длительность </span><br>
     </div>
   </div>
-  <div class="main_column_right">
+  </div>
+
+    <div class="main_column_right">
   </div>
 </main>
 
