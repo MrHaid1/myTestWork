@@ -124,20 +124,31 @@ main {
     font-size:10px;
     background-color: rgb(245,245,247);
 }
-.hidden {
-    display:none;
-}
+
+
 .hidden_button {
     opacity: 0;
     transition: all ease 0.5s;
+}
+.hidden_button_r {
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+.but_1{
+display: flex;
 }
 .hidden_button:hover{
     opacity: 1;
     border:none;
     background-color: rgb(223, 227, 232);
 }
+.hidden_button_r:hover{
+    opacity: 1;
+    border:none;
+    background-color: rgb(223, 227, 232);
+}
 .column_h {
-    margin-top:20px;
+
     font-size: 15px;
     color:rgb(43, 45,66);
 }
@@ -219,6 +230,7 @@ main {
     flex-direction: column;
     box-sizing: border-box;
     align-items: flex-start;
+    margin-top: 10px;
 }
 .main_back{
     display:flex;
@@ -300,7 +312,45 @@ main {
     font-size:10px;
     background-color: rgb(245,245,247);
 }
+.heading {
+    padding: 5px;
+    font-family: "JetBrains Mono", serif;
+    font-size: 15px;
+    margin:20px 0 0 10px;
+}
+.channel_1 {
+    display: block;
+    padding:10px;
+    background: url("img/channel_logo.png") no-repeat 5px 3px;
+    background-size: 25px;
+    margin: 10px 0 0 15px;
 
+
+}
+.channel_1__a {
+    font-family: "JetBrains Mono", serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding:5px;
+    margin-left: 20px;
+}
+
+.channel_1 a:hover {
+    background-color: #ab47bc;
+    color:white;
+
+}
+.channel_1:hover {
+    background-color: #ab47bc;
+
+}
+.but_2 {
+    display: flex;
+
+}
+.hidden {
+    display: none;
+}
 /*CSS footer*/
 
 footer {
